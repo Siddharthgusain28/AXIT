@@ -30,15 +30,15 @@ li a{ font: 1rem var(--ff); color: #fff; line-height: 3rem; padding: 1rem;}
 
 nav li:hover a{ color: var(--col2); transition: .3s; text-shadow: 2px 2px 10px #fff;}
 .collapse{ display: none; width: 60px; border: 2px solid var(--col2); border-radius: 25px; padding: 10px; margin: 5px; }
-.collapse span{ display:inline-block; width: 10px; height: 10px; background: var(--col2); padding: 5px; border-radius: 50%;}
+.collapse span{ display:inline-block; background: var(--col2); padding: 5px; border-radius: 50%;}
 
 .collapse.active{background: var(--col2);}
 .collapse.active span{background: var(--col);}
 
 
-.part-2{ background: url(../img/bg-1.webp) center top/cover;color: #fff; font: bold 2rem var(--ff); padding: 7rem 0;}
+.part-2{ background: url(../img/bg-1.webp) center top/cover;color: #fff; font: bold 2rem var(--ff); padding: 6rem 0;}
 .part-2 h1{ display: inline-block;}
-.part-2 p{ font-size: 32px;}
+.part-2 p{ font-size: 2.2rem;}
 .seprator{ width: 4rem; height:3px ; background:var(--col2); margin-top: 3rem;}
 .part-2 .about{ font:1rem var(--rol); margin-top:3rem;}
 .download-button{ border:2px solid #fff; background: none; font: 1rem var(--ff); color: #fff; padding: 1rem 2rem;

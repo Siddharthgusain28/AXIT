@@ -2,13 +2,12 @@
 $(function(){
     
     $(".collapse").click(function(){
+        $(this).toggleClass("active")            
         $(".collapse-nav").slideToggle()
-        $(".collapse").toggleClass("active")            
     })
 
     if(screen.width<480){
         $(".collapse-nav a").click(function(e){
-            e.preventDefault()
             $(".collapse-nav").slideUp()
             $(".collapse").toggleClass("active")
         })
