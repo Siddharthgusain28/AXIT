@@ -55,10 +55,10 @@ margin-top: 3rem; transition-duration: .4s ;}
 .part-2 .trail-form:hover{ box-shadow: 0 0 10px #fff; }
 
 
-.part-3{ background: #fff; padding: 20px 0;}
+.part-3{ background: #fff; padding: 1.3rem 0;}
 .part-3 h2{ font: bold 20px var(--ff);}
-.part-3 p{ font: 14px var(--ff); color: #000;}
-.part-3 ul li a{color: var(--col); font-size: 2rem; margin: 0 10px;}
+.part-3 p{ font: 1rem var(--ff); color: #000;}
+.part-3 ul li a{color: var(--col); font-size: 2rem; margin: 0 .6rem;}
 .part-3 ul li a:hover{color: var(--col2);}
 
 
